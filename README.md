@@ -1,6 +1,6 @@
 # vericorp
 
-Official TypeScript/JavaScript SDK for the [VeriCorp API](https://rapidapi.com/vericorp/api/vericorp-api) — European company verification and VAT validation.
+Official TypeScript/JavaScript SDK for the [VeriCorp API](https://rapidapi.com/vericorptestcollab/api/vericorp) — European company verification and VAT validation.
 
 ## Install
 
