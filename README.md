@@ -1,17 +1,17 @@
-# vericorp
+# @vericorp/company-verify
 
-Official TypeScript/JavaScript SDK for the [VeriCorp API](https://rapidapi.com/vericorptestcollab/api/vericorp) — European company verification and VAT validation.
+Official TypeScript/JavaScript SDK for the [VeriCorp Company Verify API](https://rapidapi.com/vericorptestcollab/api/vericorp) — European company verification and VAT validation.
 
 ## Install
 
 ```bash
-npm install vericorp
+npm install @vericorp/company-verify
 ```
 
 ## Quick Start
 
 ```typescript
-import { VeriCorp } from "vericorp";
+import { VeriCorp } from "@vericorp/company-verify";
 
 const client = new VeriCorp({ apiKey: "your-rapidapi-key" });
 
@@ -50,7 +50,7 @@ console.log(batch.results);
 ### Error Handling
 
 ```typescript
-import { VeriCorp, NotFoundError, RateLimitError } from "vericorp";
+import { VeriCorp, NotFoundError, RateLimitError } from "@vericorp/company-verify";
 
 try {
   await client.lookup("PT000000000");

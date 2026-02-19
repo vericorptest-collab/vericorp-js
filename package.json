@@ -1,6 +1,6 @@
 {
-  "name": "vericorp",
-  "version": "1.0.0",
+  "name": "@vericorp/company-verify",
+  "version": "2.0.0",
   "description": "Official TypeScript SDK for the VeriCorp API — European company verification and VAT validation",
   "keywords": ["vericorp", "vat", "tax-id", "company", "europe", "validation", "api"],
   "author": "VeriCorp",
